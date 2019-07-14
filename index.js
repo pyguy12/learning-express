@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   // res.send("<h1>Homepage</h1>");
 
   // res.sendFile("path to file") Used to send a file as a response to the request.
-  res.sendFile(path.join(__dirname, "public", index.html));
+  res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
 // Creating a variable to house the port number of either the current machine or defaulting to 5000.
