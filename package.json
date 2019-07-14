@@ -1,0 +1,27 @@
+{
+  "name": "learning-express",
+  "version": "1.0.0",
+  "description": "A repository where I provide explanations for common express operations.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyguy12/learning-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyguy12/learning-express/issues"
+  },
+  "homepage": "https://github.com/pyguy12/learning-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
